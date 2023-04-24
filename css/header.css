@@ -1,0 +1,23 @@
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 219px;
+  width: 100%;
+  mix-blend-mode: screen;
+}
+
+header {
+  padding: 75px 0 57px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,288 @@
+@import 'fonts'
+@import 'vars'
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+
+	&:before, &:after
+		-webkit-box-sizing: border-box
+		-moz-box-sizing: border-box
+		box-sizing: border-box
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+	margin: 0
+	padding: 0
+	border: 0
+	font-size: 100%
+	font: inherit
+	vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+	display: block
+
+blockquote, q
+	quotes: none
+
+blockquote:before, blockquote:after, q:before, q:after
+	content: ''
+	content: none
+
+table
+	border-collapse: collapse
+	border-spacing: 0
+
+body
+	font-size: 30px
+	font-weight: 300
+	min-width: 320px
+	position: relative
+	line-height: normal
+	font-family: $default-font
+	background: #000
+	color: #fefefe
+
+img
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+a
+	display: block
+	text-decoration: none
+	transition: .3s ease
+	outline: none
+	width: fit-content
+
+	&:hover, &:focus
+		text-decoration: none
+
+input, textarea, select
+	outline: none
+	box-shadow: none
+	appearance: none
+	padding: 0 15px
+	box-sizing: border-box
+	font-family: $default-font
+	border: none
+	border-radius: 10px
+	width: 100%
+	height: 54px
+	background: transparent
+	color: #000
+	font-size: 15px
+
+	&::placeholder
+		color: #595959
+
+	&:hover, &:focus
+		outline: none
+		box-shadow: none
+
+label
+	display: block
+	width: 100%
+	margin: 0 0 13px
+
+	&:last-child
+		margin: 0
+
+textarea
+	resize: none
+	padding: 12px 17px
+	height: 103px
+
+button, .btn
+	outline: none
+	transition: .3s ease
+	cursor: pointer
+	box-shadow: none
+	font-family: $default-font
+	padding: 0
+	margin: 0
+	border: none
+	border-radius: 0
+
+	&:hover, &:focus
+		outline: none
+		box-shadow: none
+
+.btn
+	display: flex
+	align-items: center
+	justify-content: center
+	text-align: center
+	padding: 10px 40px
+	font-size: 19.5px
+	font-weight: 800
+	line-height: 8.69
+	letter-spacing: 0.2px
+	height: 69px
+	border-radius: 34.2px
+	transition: 0.3s ease
+	text-transform: uppercase
+
+.btn-group
+	max-width: 310px
+	width: 100%
+	.btn
+		width: 100%
+		padding: 0 20px
+		margin: 0 0 25px
+		&:last-child
+			margin: 0
+
+.btn-accent
+	background-image: linear-gradient(to right, #d4ab3c, #ffe6b0, #d29940)
+	color: #000
+	&:hover
+		background: linear-gradient(to bottom, #d4ab3c, #ffe6b0, #d29940)
+		color: #000
+
+.btn-border
+	position: relative
+	z-index: 1
+	background-image: linear-gradient(to right, #d4ab3c, #ffe6b0, #d29940)
+	&::before
+		content: ''
+		position: absolute
+		left: 50%
+		top: 50%
+		transform: translate(-50%,-50%)
+		background: #000
+		border-radius: 34.2px
+		width: calc(100% - 2px)
+		height: calc(100% - 2px)
+	span
+		position: relative
+		z-index: 1
+		display: inline-block
+		background-image: linear-gradient(to top, #d4ab3c, #ffe6b0, #d29940), linear-gradient(to bottom, #cd9b54, #cd9b54)
+		font-stretch: normal
+		-webkit-background-clip: text
+		background-clip: text
+		-webkit-text-fill-color: transparent
+	&:hover
+		&::before
+			background-image: linear-gradient(to top, #d4ab3c, #ffe6b0, #d29940)
+		span
+			background: none
+			-webkit-text-fill-color: black
+
+.svg-icon
+	display: inline-block
+	width: 100%
+	height: 100%
+
+strong, b
+	font-weight: bold
+	display: inline-block
+
+ul, ol
+	padding: 0 0 0 20px
+
+.my-ul
+	list-style: none
+	padding: 0
+
+.list-dots
+	list-style-type: disc
+
+.slick-slider
+	width: 100%
+
+.slick-slide
+	outline: none
+
+.container
+	margin: 0 auto
+	width: 100%
+	display: flex
+	flex-wrap: wrap
+	max-width: 1350px
+	padding: 0 15px
+	position: relative
+
+h1
+	width: 100%
+	text-align: center
+	background: linear-gradient(to right, rgba(212,171,60,1) 0%,rgba(255,230,176,1) 63%,rgba(210,153,64,1) 100%)
+	font-family: $title-font
+	font-size: 138.5px
+	font-weight: normal
+	font-stretch: normal
+	font-style: normal
+	line-height: 0.9
+	letter-spacing: normal
+	text-align: center
+	color: #cd9b54
+	-webkit-background-clip: text
+	background-clip: text
+	-webkit-text-fill-color: transparent
+
+.text-decor
+	background-image: linear-gradient(to top, #d4ab3c, #ffe6b0, #d29940), linear-gradient(to bottom, #cd9b54, #cd9b54)
+	font-family: $title-font
+	font-size: 48px
+	font-weight: normal
+	font-stretch: normal
+	font-style: normal
+	line-height: 1
+	letter-spacing: 0.72px
+	text-align: center
+	color: #cd9b54
+	-webkit-background-clip: text
+	background-clip: text
+	-webkit-text-fill-color: transparent
+	line-height: 1.25
+	-webkit-background-clip: text
+	background-clip: text
+	-webkit-text-fill-color: transparent
+
+h2
+	width: 100%
+	margin: 0 auto 80px
+	background: linear-gradient(to right, rgba(212,171,60,1) 0%,rgba(255,230,176,1) 63%,rgba(210,153,64,1) 100%)
+	// background-image: linear-gradient(to top, #d4ab3c, #ffe6b0, #d29940), linear-gradient(to bottom, #cd9b54, #cd9b54)
+	font-family: $title-font
+	font-size: 48px
+	font-weight: normal
+	font-stretch: normal
+	font-style: normal
+	line-height: normal
+	letter-spacing: 1.2px
+	text-align: center
+	color: #cd9b54
+	-webkit-background-clip: text
+	background-clip: text
+	-webkit-text-fill-color: transparent
+
+.title-decor
+	position: relative
+	z-index: 1
+	padding: 0 0 104px
+	&:before
+		content: ''
+		position: absolute
+		bottom: 0
+		left: 50%
+		transform: translate(-50%,0)
+		background: url('../img/decor.png') no-repeat center
+		background-size: 100%
+		width: 78px
+		height: 46px
+			
+
+.wrapper
+	width: 100%
+	display: flex
+	align-items: stretch
+	flex-wrap: wrap
+	
