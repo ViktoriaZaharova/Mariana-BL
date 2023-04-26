@@ -294,6 +294,344 @@
     height: 20px;
   }
 }
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 19px;
+  }
+  h1 {
+    font-size: 69.5px;
+  }
+  .home {
+    padding: 154px 0 40px;
+  }
+  .home .btn-group {
+    margin: 117px auto 0;
+  }
+  .home .btn-group .btn {
+    max-width: 194px;
+    margin: 0 auto 15px;
+  }
+  .home .btn-group .btn:last-child {
+    margin: 0 auto;
+  }
+  .btn {
+    height: 44px;
+    font-size: 12.5px;
+  }
+  header {
+    padding: 20px 0 30px;
+  }
+  .logo {
+    max-width: 150px;
+  }
+  .home-image {
+    max-width: 391px;
+    margin: -34px auto -160px 150px;
+  }
+  .home-image::before {
+    width: 373px;
+    height: 373px;
+    top: -70px;
+    left: -65px;
+  }
+  .home-description {
+    margin: 0 auto 38px;
+    max-width: 425px;
+  }
+  .info-event {
+    font-size: 16px;
+    line-height: 1.13;
+    top: 405px;
+  }
+  .info-event-box {
+    margin: 0 0 25px;
+    max-width: 106px;
+  }
+  .info-event-box:last-child {
+    margin: 0;
+  }
+  .info-event-box:last-child .info-event-box__icon {
+    max-width: 22px;
+  }
+  .info-event-box__icon {
+    margin: 0 0 11px;
+    max-width: 40px;
+  }
+  .quote {
+    top: 559px;
+    font-size: 17px;
+    max-width: 193px;
+    padding: 0 0 52px;
+  }
+  .quote br {
+    display: none;
+  }
+  .quote::before {
+    width: 39px;
+    height: 34px;
+    bottom: 0;
+  }
+  .course-description {
+    margin: 63px auto 0;
+    font-size: 18px;
+    max-width: 430px;
+    padding: 0 0 80px;
+  }
+  .course-description::before {
+    width: 49px;
+    height: 29px;
+  }
+  .course-description .text-decor {
+    margin: 20px auto 30px;
+  }
+  .text-decor {
+    font-size: 30px;
+    letter-spacing: 0.45px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    line-height: normal;
+    margin: 0 auto 50px;
+  }
+  .title-decor {
+    padding: 0 0 66px;
+  }
+  .title-decor::before {
+    width: 49px;
+    height: 29px;
+  }
+  .causes h2 {
+    max-width: 455px;
+  }
+  .causes-card {
+    max-width: 197px;
+    padding: 30px 15px 33px;
+    font-size: 17px;
+    line-height: 1.12;
+    margin: 0 0 27px;
+  }
+  .causes-card__icon {
+    margin: 0 auto 25px;
+    max-width: 70px;
+  }
+  .causes-card h3 {
+    font-size: 17.5px;
+    margin: 0 auto 15px;
+  }
+  .learn {
+    margin: 80px 0 101px;
+  }
+  .learn h2 {
+    max-width: 410px;
+  }
+  .learn h2 br {
+    display: block;
+  }
+  .list-check {
+    font-size: 18px;
+    max-width: 280px;
+  }
+  .list-check li {
+    margin: 0 0 40px;
+  }
+  .list-check li:last-child {
+    margin: 0;
+  }
+  .list-check li::before {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    margin: 0 13px 0 0;
+  }
+  .about-author {
+    padding: 0 0 64px;
+  }
+  .about-author::before {
+    bottom: 518px;
+  }
+  .about-author__photo {
+    max-width: 335px;
+  }
+  .about-author__content {
+    margin: 60px auto 0;
+    max-width: 365px;
+    font-size: 18px;
+    line-height: 1.14;
+    letter-spacing: 0.05px;
+  }
+  .about-author__content .box-text p {
+    margin: 0 0 25px;
+  }
+  .about-author h2 {
+    margin: 0 auto 35px;
+  }
+  .author-name {
+    width: 100%;
+    text-align: center;
+    font-size: 66.5px;
+    margin: 0 auto 46px;
+  }
+  .programm {
+    padding: 55px 0 97px;
+  }
+  .programm h2 {
+    margin: 0 auto 40px;
+  }
+  .programm .btn {
+    margin: 40px auto 60px;
+  }
+  .text-description {
+    max-width: 375px;
+    font-size: 18px;
+    line-height: 1.14;
+    letter-spacing: -0.09px;
+  }
+  .programm-box {
+    padding: 48px 16px;
+    margin: 0 0 30px;
+    letter-spacing: -0.09px;
+    font-size: 18px;
+  }
+  .programm-box h3 {
+    letter-spacing: -0.17px;
+    font-size: 34.5px;
+    margin: 0 0 10px;
+  }
+  .programm-box h4 {
+    letter-spacing: -0.11px;
+    font-size: 22.5px;
+    margin: 0 0 10px;
+  }
+  .programm-box__head {
+    padding: 0 0 56px;
+  }
+  .programm-box__head::before {
+    height: 29px;
+  }
+  .programm-box__body {
+    padding: 20px 0 0;
+  }
+  .programm-box__step {
+    margin: 0 0 30px;
+  }
+  .programm-box__step:last-child {
+    margin: 0;
+  }
+  .certificate h2 {
+    margin: 0 auto 44px;
+  }
+  .stages-learn {
+    padding: 103px 0 100px;
+  }
+  .stages-learn .text-description {
+    margin: 0 auto 70px;
+    max-width: 370px;
+  }
+  .list-steps {
+    max-width: 335px;
+  }
+  .list-steps br {
+    display: none;
+  }
+  .list-steps .number {
+    margin: 0 17px 0 0;
+    width: 61px;
+    min-width: 61px;
+    height: 61px;
+    font-size: 30px;
+  }
+  .list-steps li {
+    margin: 0 0 68px;
+  }
+  .list-steps li:last-child {
+    margin: 0;
+  }
+  .steps {
+    padding: 113px 0 123px;
+  }
+  .steps h2 {
+    max-width: 370px;
+  }
+  .steps-box {
+    margin: 0 auto 47px;
+    max-width: 310px;
+  }
+  .steps-box__icon {
+    margin: 0 auto 35px;
+    max-width: 63px;
+  }
+  .prices {
+    padding: 107px 0 0;
+  }
+  .prices h2 {
+    max-width: 380px;
+  }
+  .price-card {
+    margin: 0 auto 30px;
+    max-width: 263px;
+    font-size: 18.5px;
+    padding: 44px 28px 53px 27px;
+  }
+  .price-card h3 {
+    font-size: 18.5px;
+    line-height: 1.22;
+    min-height: 85px;
+    margin: 27px 0 69px;
+  }
+  .price-card h3 span {
+    font-size: 18px;
+  }
+  .price {
+    font-size: 30px;
+  }
+  .social {
+    padding: 10px 0 114px;
+  }
+  .social h2 {
+    max-width: 385px;
+  }
+  .social .box-text {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  .list-social {
+    margin: 35px 0;
+  }
+  .list-social li {
+    margin: 0 20px 0 0;
+  }
+  .list-social li a {
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+  }
+  .reviews {
+    padding: 113px 0 50px;
+  }
+  .callback-section {
+    margin: 100px 0;
+  }
+  .faq {
+    margin: 0 0 100px;
+  }
+  .block_title {
+    font-size: 18px;
+    line-height: 1.14;
+    padding: 17px;
+  }
+  .block_title:after {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    font-size: 20px;
+    padding: 3px 0 0;
+  }
+  .block_hover {
+    padding: 26px 17px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .slick-arrow {
     display: none !important;
@@ -308,6 +646,12 @@
   .reviews__list-container .slick-dots li {
     width: 20px;
     height: 20px;
+  }
+  .home-image {
+    margin: -34px -30px -160px auto;
+  }
+  .certificate-image {
+    max-width: 355px;
   }
 }
 @media only screen and (max-width: 480px) {
