@@ -293,6 +293,10 @@
     width: 20px;
     height: 20px;
   }
+  .home {
+    background: url("../img/bg1-mobile.png") no-repeat center top;
+    background-size: 100%;
+  }
 }
 @media only screen and (max-width: 700px) {
   body {
@@ -493,6 +497,8 @@
     margin: 0 0 30px;
     letter-spacing: -0.09px;
     font-size: 18px;
+    -webkit-box-shadow: 0 0 41px 0 rgba(58, 58, 58, 0.25);
+            box-shadow: 0 0 41px 0 rgba(58, 58, 58, 0.25);
   }
   .programm-box h3 {
     letter-spacing: -0.17px;
@@ -515,6 +521,9 @@
   }
   .programm-box__step {
     margin: 0 0 30px;
+  }
+  .programm-box__step .box-text br {
+    display: none;
   }
   .programm-box__step:last-child {
     margin: 0;
@@ -610,6 +619,9 @@
   .reviews {
     padding: 113px 0 50px;
   }
+  .reviews::before {
+    height: 1290px;
+  }
   .callback-section {
     margin: 100px 0;
   }
@@ -665,6 +677,332 @@
     width: 16px;
     height: 16px;
   }
+  .about-author::before {
+    height: 1132px;
+  }
+  .certificate::before {
+    height: 970px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 62px;
+  }
+  .logo {
+    max-width: 130px;
+  }
+  header {
+    padding: 20px 0;
+  }
+  .home {
+    padding: 137px 0 35px;
+  }
+  .home .btn-group .btn {
+    max-width: 174px;
+  }
+  .home-description {
+    max-width: 381px;
+    font-size: 17px;
+    margin: 0 auto 33px;
+  }
+  .home-image {
+    max-width: 350px;
+    margin: -29px -26px -160px auto;
+  }
+  .home-image::before {
+    width: 300px;
+    height: 300px;
+    top: -75px;
+    left: -40px;
+  }
+  .info-event {
+    top: 350px;
+    font-size: 14.5px;
+  }
+  .info-event-box {
+    margin: 0 0 22px;
+  }
+  .info-event-box__icon {
+    max-width: 35px;
+    margin: 0 0 9px;
+  }
+  .info-event-box:last-child .info-event-box__icon {
+    max-width: 20px;
+  }
+  .quote {
+    top: 485px;
+    font-size: 15px;
+    max-width: 170px;
+    padding: 0 0 46px;
+  }
+  .quote::before {
+    width: 35px;
+    height: 30px;
+  }
+  .btn {
+    height: 39px;
+    font-size: 11px;
+    padding: 10px 18px;
+  }
+  .course-description {
+    margin: 56px auto 0;
+    padding: 0 0 70px;
+    max-width: 385px;
+  }
+  .course-description::before {
+    width: 44px;
+    height: 26px;
+  }
+  .course-description p {
+    margin: 0 0 20px;
+  }
+  .text-decor {
+    font-size: 27px;
+  }
+  .title-decor {
+    padding: 0 0 58px;
+  }
+  .title-decor::before {
+    width: 44px;
+    height: 26px;
+  }
+  .causes h2 {
+    max-width: 410px;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 0 auto 44px;
+  }
+  .causes-card {
+    margin: 0 0 24px;
+    padding: 27px 15px;
+    max-width: 176px;
+    font-size: 15px;
+  }
+  .causes-card h3 {
+    line-height: 1;
+    letter-spacing: 0.39px;
+    font-size: 15.5px;
+    margin: 0 0 10px;
+  }
+  .causes-card__icon {
+    max-width: 64px;
+    margin: 0 auto 22px;
+  }
+  .learn {
+    margin: 65px 0 93px;
+  }
+  .learn h2 {
+    margin: 0 auto 30px;
+    max-width: 365px;
+  }
+  .list-check {
+    font-size: 16px;
+    max-width: 250px;
+  }
+  .list-check li {
+    margin: 0 0 35px;
+  }
+  .list-check li:last-child {
+    margin: 0;
+  }
+  .list-check li::before {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    margin: 0 11px 0 0;
+  }
+  .author-name {
+    margin: 0 auto 38px;
+    line-height: 0.8;
+    letter-spacing: -0.3px;
+    font-size: 59.5px;
+  }
+  .about-author__photo {
+    max-width: 300px;
+  }
+  .about-author__content {
+    margin: 50px auto 0;
+    max-width: 325px;
+    font-size: 16px;
+  }
+  .about-author__content .box-text p {
+    margin: 0 0 20px;
+  }
+  .programm {
+    padding: 49px 0 0;
+  }
+  .programm .btn {
+    margin: 36px auto 54px;
+  }
+  .programm h2 {
+    margin: 0 auto 37px;
+  }
+  .text-description {
+    font-size: 16px;
+    max-width: 335px;
+  }
+  .programm-box {
+    margin: 0 0 26px;
+    padding: 42px 15px;
+    line-height: 1.16;
+    letter-spacing: -0.08px;
+    font-size: 16px;
+    -webkit-box-shadow: 0 0 37px 0 rgba(58, 58, 58, 0.25);
+            box-shadow: 0 0 37px 0 rgba(58, 58, 58, 0.25);
+  }
+  .programm-box h3 {
+    font-size: 31px;
+    letter-spacing: -0.16px;
+  }
+  .programm-box h4 {
+    letter-spacing: -0.1px;
+    font-size: 20px;
+  }
+  .programm-box__head {
+    padding: 0 0 50px;
+  }
+  .programm-box__head::before {
+    height: 26px;
+  }
+  .programm-box__body {
+    padding: 25px 0 0;
+  }
+  .certificate {
+    padding: 67px 0 0;
+  }
+  .certificate h2 {
+    max-width: 345px;
+    margin: 0 auto 40px;
+  }
+  .certificate h2 br {
+    display: block;
+  }
+  .certificate-image {
+    max-width: 335px;
+  }
+  .stages-learn {
+    padding: 92px 0 96px;
+  }
+  .stages-learn .text-description {
+    margin: 0 auto 62px;
+    max-width: 330px;
+  }
+  .list-steps {
+    max-width: 310px;
+    font-size: 16px;
+  }
+  .list-steps .number {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    margin: 0 15px 0 0;
+    font-size: 27px;
+  }
+  .list-steps li {
+    margin: 0 0 60px;
+  }
+  .steps {
+    padding: 101px 0 110px;
+  }
+  .steps h2 {
+    max-width: 340px;
+  }
+  .steps-box {
+    margin: 0 auto 40px;
+    max-width: 280px;
+  }
+  .steps-box__icon {
+    margin: 0 auto 32px;
+    max-width: 56px;
+  }
+  .prices {
+    padding: 95px 0 0;
+  }
+  .prices h2 {
+    max-width: 345px;
+  }
+  .price-card {
+    max-width: 236px;
+    margin: 0 auto 27px;
+    font-size: 17px;
+    padding: 38px 25px 47px 24px;
+  }
+  .price-card h3 {
+    font-size: 17px;
+    margin: 24px auto 61px;
+    min-height: 76px;
+  }
+  .price-card:last-child h3 {
+    margin: 0 0 60px;
+  }
+  .price {
+    font-size: 27px;
+    line-height: 1.15;
+  }
+  .social h2 {
+    max-width: 350px;
+  }
+  .social .box-text {
+    max-width: 341px;
+  }
+  .list-social {
+    margin: 30px auto 33px;
+  }
+  .list-social li {
+    margin: 0 19px 0 0;
+  }
+  .list-social li a {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    padding: 11px;
+  }
+  .reviews {
+    padding: 101px 0 50px;
+  }
+  .reviews::before {
+    height: 714px;
+  }
+  .callback-section {
+    margin: 70px 0;
+  }
+  .faq {
+    margin: 0 0 70px;
+  }
+  .block_title {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .block_title:after {
+    width: 26px;
+    height: 26px;
+    min-width: 26px;
+  }
+  .block_hover {
+    padding: 22px 15px 0;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .causes-card {
+    max-width: 160px;
+    margin: 0 0 18px;
+    padding: 20px 11px;
+    font-size: 11px;
+  }
+  .causes-card__icon {
+    margin: 0 auto 16px;
+    max-width: 48px;
+  }
+  .causes-card h3 {
+    line-height: 1;
+    letter-spacing: 0.29px;
+    font-size: 11.5px;
+    margin: 0 0 8px;
+  }
 }
 @media only screen and (max-width: 370px) {
   .reviews__list-media {
@@ -680,5 +1018,327 @@
   }
   .slick-dots li:last-child {
     margin: 0;
+  }
+}
+@media only screen and (max-width: 360px) {
+  h1 {
+    line-height: 0.89;
+    font-size: 46.5px;
+  }
+  body {
+    font-size: 12px;
+  }
+  .home-description {
+    margin: 0 auto 23px;
+    line-height: 1.48;
+    letter-spacing: -0.13px;
+    font-size: 12.5px;
+    max-width: 285px;
+  }
+  .logo {
+    max-width: 95px;
+  }
+  header {
+    padding: 0;
+  }
+  .home {
+    padding: 101px 0 26px;
+  }
+  .home .btn-group .btn {
+    margin: 0 auto 10px;
+    max-width: 130px;
+    padding: 0;
+  }
+  .btn {
+    height: 30px;
+    padding: 0 17px;
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .title-decor {
+    padding: 0 0 43px;
+    margin: 0 auto 33px;
+  }
+  .title-decor::before {
+    width: 33px;
+    height: 19px;
+  }
+  .text-decor {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 1;
+  }
+  .home-image {
+    max-width: 261px;
+    margin: -20px -15px -160px auto;
+  }
+  .home-image::before {
+    width: 229px;
+    height: 229px;
+    top: -60px;
+    left: -30px;
+  }
+  .info-event {
+    font-size: 11px;
+    top: 265px;
+  }
+  .info-event-box {
+    margin: 0 0 16px;
+    max-width: 80px;
+  }
+  .info-event-box__icon {
+    max-width: 26px;
+    margin: 0 0 6px;
+  }
+  .info-event-box:last-child .info-event-box__icon {
+    max-width: 15px;
+  }
+  .quote {
+    font-size: 11px;
+    max-width: 130px;
+    padding: 0 0 33px;
+    top: 365px;
+  }
+  .quote::before {
+    width: 26px;
+    height: 22px;
+  }
+  .course-description {
+    margin: 40px auto 0;
+    max-width: 290px;
+    padding: 0 0 52px;
+    font-size: 12px;
+  }
+  .course-description::before {
+    width: 33px;
+    height: 19px;
+  }
+  .course-description p {
+    margin: 0 0 8px;
+  }
+  .course-description .text-decor {
+    margin: 10px auto 20px;
+  }
+  .causes-card {
+    max-width: 131px;
+    margin: 0 0 18px;
+    padding: 20px 11px;
+    font-size: 11px;
+  }
+  .causes-card__icon {
+    margin: 0 auto 16px;
+    max-width: 48px;
+  }
+  .causes-card h3 {
+    line-height: 1;
+    letter-spacing: 0.29px;
+    font-size: 11.5px;
+    margin: 0 0 8px;
+  }
+  .learn {
+    margin: 52px 0 67px;
+  }
+  .list-check {
+    font-size: 12px;
+    max-width: 190px;
+  }
+  .list-check li {
+    margin: 0 0 33px;
+  }
+  .list-check li:before {
+    width: 33px;
+    height: 33px;
+    min-width: 33px;
+    margin: 0 9px 0 0;
+  }
+  .about-author {
+    padding: 0 0 42px;
+  }
+  .about-author::before {
+    height: 754px;
+  }
+  .about-author__photo {
+    max-width: 220px;
+  }
+  .about-author__content {
+    margin: 40px auto 0;
+    max-width: 250px;
+    font-size: 12px;
+  }
+  .about-author__content .box-text p {
+    margin: 0 0 12px;
+  }
+  .author-name {
+    font-size: 44.5px;
+    line-height: 0.8;
+    letter-spacing: -0.22px;
+    margin: 0 auto 30px;
+  }
+  .programm {
+    padding: 36px 0 0;
+  }
+  .programm .btn {
+    margin: 26px auto 40px;
+  }
+  .text-description {
+    max-width: 250px;
+    font-size: 12px;
+  }
+  .programm-box {
+    margin: 0 0 19px;
+    padding: 31px 11px;
+    font-size: 12px;
+  }
+  .programm-box h3 {
+    letter-spacing: -0.12px;
+    font-size: 23px;
+    line-height: normal;
+  }
+  .programm-box h4 {
+    letter-spacing: -0.08px;
+    font-size: 15px;
+    margin: 0 0 10px;
+    line-height: normal;
+  }
+  .programm-box__head {
+    padding: 0 0 38px;
+  }
+  .programm-box__head::before {
+    height: 19px;
+  }
+  .programm-box__body {
+    padding: 15px 0 0;
+  }
+  .programm-box__step {
+    margin: 0 0 20px;
+  }
+  .certificate {
+    padding: 46px 0 0;
+  }
+  .certificate h2 {
+    margin: 0 auto 30px;
+  }
+  .certificate::before {
+    height: 657px;
+  }
+  .certificate-image {
+    max-width: 250px;
+  }
+  .stages-learn {
+    padding: 70px 0;
+  }
+  .stages-learn .text-description {
+    margin: 0 auto 45px;
+    font-size: 12px;
+    line-height: 1.13;
+    letter-spacing: 0.06px;
+    max-width: 250px;
+  }
+  .list-steps {
+    line-height: 1.13;
+    font-size: 12px;
+    max-width: 225px;
+  }
+  .list-steps li {
+    margin: 0 0 43px;
+  }
+  .list-steps .number {
+    width: 41px;
+    min-width: 41px;
+    height: 41px;
+    font-size: 20px;
+    margin: 0 11px 0 0;
+  }
+  .steps {
+    padding: 74px 0 81px;
+  }
+  .steps h2 {
+    max-width: 250px;
+  }
+  .steps-box {
+    margin: 0 auto 30px;
+    max-width: 210px;
+  }
+  .steps-box__icon {
+    max-width: 42px;
+    margin: 0 auto 23px;
+  }
+  .prices {
+    padding: 70px 0 0;
+  }
+  .prices h2 {
+    max-width: 260px;
+  }
+  .price-card {
+    max-width: 176px;
+    margin: 0 0 20px;
+    font-size: 12.5px;
+  }
+  .price-card h3 {
+    font-size: 12.5px;
+    margin: 17px auto 46px;
+    min-height: 57px;
+  }
+  .price-card h3 span {
+    font-size: 12.5px;
+  }
+  .price-card:last-child h3 {
+    margin: 0 0 44px;
+  }
+  .social {
+    padding: 6px 0 76px;
+  }
+  .social .box-text {
+    max-width: 255px;
+  }
+  .social h2 {
+    max-width: 258px;
+  }
+  .list-social {
+    margin: 22px 0 24px;
+  }
+  .list-social li {
+    margin: 0 13px 0 0;
+  }
+  .list-social li a {
+    min-width: 33px;
+    width: 33px;
+    height: 33px;
+    padding: 9px;
+  }
+  .price {
+    line-height: 1.15;
+    font-size: 20px;
+  }
+  .reviews {
+    padding: 74px 0 40px;
+  }
+  .reviews::before {
+    height: 537px;
+  }
+  .callback-section {
+    margin: 50px 0;
+  }
+  .faq {
+    margin: 0 0 60px;
+  }
+  .panel_heading {
+    margin: 0 0 20px;
+  }
+  .block_hover {
+    padding: 17px 11px 0;
+  }
+  .block_title {
+    font-size: 12px;
+    padding: 11px;
+  }
+  .block_title:after {
+    width: 21px;
+    height: 21px;
+    min-width: 21px;
+    font-size: 16px;
   }
 }

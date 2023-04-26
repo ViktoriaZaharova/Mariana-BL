@@ -130,6 +130,8 @@
 .causes {
   background: url("../img/causes-bg.png") no-repeat center;
   background-size: cover;
+  position: relative;
+  z-index: 1;
 }
 .causes h2 {
   max-width: 720px;
@@ -178,6 +180,8 @@
 
 .learn {
   margin: 136px 0 52px;
+  position: relative;
+  z-index: 2;
 }
 .learn h2 {
   max-width: 880px;
@@ -409,17 +413,19 @@
 
 .certificate {
   position: relative;
-  z-index: 1;
+  z-index: -1;
   background: #fff;
 }
 .certificate h2 {
   max-width: 950px;
   margin: 0 auto 77px;
 }
+.certificate h2 br {
+  display: none;
+}
 .certificate::before {
   content: "";
   position: absolute;
-  z-index: -1;
   left: 0;
   bottom: 0;
   width: 100%;
