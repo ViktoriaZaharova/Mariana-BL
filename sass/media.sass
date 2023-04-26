@@ -1,16 +1,290 @@
-/*==========  Desktop First  ==========*/
+/*==========	Desktop First	==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1300px)
+	.home-image
+		max-width: 629px
+
+	.author-name
+		font-size: 106.5px
+		text-align: center
+		margin: 0 0 70px
+
+	.about-author__photo
+		max-width: 530px
+
+	.prices
+		.wrapper
+			justify-content: space-around	
+
+	.price-card
+		margin: 0 0 49px		
+
 @media only screen and (max-width: 1200px)
+	.reviews__list-item-inner
+		padding: 0 60px
+	.reviews__list-media
+		width: 200px
+		min-width: 200px
+		height: 200px
+	.reviews__list-text
+		font-size: 22px
+		padding-left: 30px
+
+	header
+		padding: 45px 0 50px
+
+	.logo
+		max-width: 212px
+
+	h1
+		font-size: 111px
+
+	.home-description
+		max-width: 680px
+		margin: 0 auto 63px
+		br
+			display: none
+
+	.home
+		padding: 229px 0 66px
+		.btn-group
+			margin: 90px 0 0
+
+	.btn-group
+		max-width: 100%
+		justify-content: center
+		order: 1
+		display: flex
+		flex-direction: column
+		align-items: center
+		margin: 0
+		.btn
+			max-width: 309px
+
+	.course-description
+		order: 1
+		margin: 102px auto 0
+		padding: 0 0 125px
+
+	.info-event
+		top: 615px
+
+	.quote
+		margin: 0
+		position: absolute
+		right: 15px
+		top: 859px
+
+	.home-image
+		margin: -54px 140px -160px auto
+		&::before
+			top: -92px
+
+	.causes
+		.wrapper
+			justify-content: space-around
+
+	.list-check
+		li
+			width: 50%
+			&:nth-child(3), &:last-child
+				width: 50%
+
+	.about-author
+		padding: 0 0 104px
+		&__content
+			max-width: 590px
+			padding: 0
+			margin: 100px auto 0
+			text-align: center
+			font-size: 29px
+		.wrapper
+			flex-direction: column
+			align-items: center
+		&::before
+			bottom: 830px
+		&__photo
+			margin: 0 auto
+
+	.author-name
+		text-indent: 0
+		letter-spacing: -0.53px
+		line-height: 0.8
+		display: none
+
+	.d-mobile
+		display: block
+
+	.programm
+		padding: 88px 0 156px
+
+	.steps-box
+		margin: 0 100px 0 0
+		&::before
+			width: 90px
+			right: -90px
+
 
 @media only screen and (max-width: 992px)
+	.slick-arrow
+		width: 20px
+		height: 20px
+		border-width: 2px
+	.slick-arrow.slick-prev, .slick-arrow.slick-next
+		border-radius: 0
+	.slick-dots
+		position: static
+		padding-top: 30px
+
+	.reviews
+		&__heading
+			margin-top: 0
+			text-align: center
+		&__list
+			padding-top: 60px
+		&__list-item-inner
+			-webkit-box-orient: vertical
+			-webkit-box-direction: normal
+			-ms-flex-direction: column
+			flex-direction: column
+		&__list-text
+			padding: 30px 0 0
+			font-size: 20px
+			text-align: center
+
+	.home-image
+		margin: -54px -15px -160px auto
+
+	.course-description
+		max-width: 690px
+		br
+			display: block
+		p
+			&:last-child
+				br
+					display: none
+
+	.causes-card
+		max-width: 314px
+		padding: 45px 35px 58px 44px
+		font-size: 27px
+		margin: 0 0 44px
+		h3
+			font-size: 28px
+			margin: 0 auto 25px
+		&__icon
+			margin: 0 auto 30px
+
+	.list-check
+		max-width: 450px
+		width: 100%
+		margin: 0 auto
+		li
+			width: 100%
+			&:nth-child(3), &:last-child
+				width: 100%
+
+	.text-description
+		max-width: 600px
+		font-size: 29px
+
+	.programm
+		.btn
+			margin: 67px auto 97px
+
+	.programm-box
+		padding: 78px 27px
+		margin: 0 0 47px
+		&:last-child
+			margin: 0
+
+	body
+		font-size: 29px
+
+	.certificate 
+		h2
+			margin: 0 auto 72px
+			
+	.certificate-image
+		max-width: 600px
+
+	.stages-learn
+		padding: 147px 0 64px
+		.text-description
+			margin: 0 auto 114px
+			max-width: 600px
+			br
+				display: none
+
+	.list-steps 
+		max-width: 535px
+		width: 100%
+		margin: 0 auto
+		li
+			width: 100%
+			margin: 0 0 110px			
+
+	.steps-box
+		width: 100%
+		margin: 0 auto 76px
+		.number
+			display: none
+		&::before
+			display: none
+		&:last-child
+			.box-text
+				max-width: 495px
+				margin: 0 auto
+			br
+				display: none
+
+	.social
+		padding: 15px 0 183px
+		h2
+			max-width: 615px
 
 @media only screen and (max-width: 768px)
+	.slick-dots li
+		width: 20px
+		height: 20px
 
 @media only screen and (max-width: 576px)
+	.slick-arrow
+		display: none !important
+		visibility: hidden
+
+	.reviews__list-item-inner
+		padding: 0
+	.reviews__list-text
+		font-size: 18px
+	.reviews__list-container .slick-dots li
+		width: 20px
+		height: 20px
 
 @media only screen and (max-width: 480px)
+	.reviews__list-text
+		font-size: 16px
+
+	.slick-dots
+		padding: 0
+
+	.reviews__list-container .slick-dots li
+		width: 16px
+		height: 16px
 
 @media only screen and (max-width: 420px)
 
-@media only screen and (max-width: 370px)	
+@media only screen and (max-width: 370px)
+	.reviews__list-media
+		width: 160px
+		height: 160px
+		min-width: 160px
+
+	.reviews__list-text
+		font-size: 14px
+
+	.slick-dots li
+		margin: 0 10px 0 0
+		&:last-child
+			margin: 0

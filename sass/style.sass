@@ -46,6 +46,9 @@ body
 	background: #000
 	color: #fefefe
 
+html, body
+	overflow-x: hidden	
+
 img
 	display: block
 	max-width: 100%
@@ -197,9 +200,74 @@ ul, ol
 
 .slick-slider
 	width: 100%
+	padding: 0
 
 .slick-slide
 	outline: none
+
+.slick-dots
+	padding: 0
+	list-style: none
+	margin: 30px auto 0
+	display: -webkit-box
+	display: -ms-flexbox
+	display: flex
+	-webkit-box-align: center
+	-ms-flex-align: center
+	align-items: center
+	-webkit-box-pack: center
+	-ms-flex-pack: center
+	justify-content: center
+
+.slick-dots li
+	cursor: pointer
+	border-radius: 50%
+	position: relative
+	bottom: 0
+	margin: 0 20px 0 0
+	width: 30px
+	height: 30px
+	background: #fff
+	-webkit-transition: 0.3s ease
+	transition: 0.3s ease
+	&:last-child
+		margin: 0
+
+.slick-dots li.slick-active
+	background: $accent
+
+.slick-dots li button
+	display: none
+
+.slick-arrow
+	font-size: 0
+	z-index: 1
+	position: absolute
+	top: 0
+	bottom: 0
+	margin: auto
+	background: transparent
+	width: 50px
+	height: 50px
+	border: 4px solid #fff
+	-webkit-transform: rotate(45deg)
+	transform: rotate(45deg)
+
+.slick-arrow.slick-prev
+	left: 17px
+	border-right: 0
+	border-top: 0
+	border-bottom-left-radius: 5px
+
+.slick-arrow.slick-next
+	right: 17px
+	border-left: 0
+	border-bottom: 0
+	border-top-right-radius: 5px
+
+.slick-arrow.slick-disabled
+	pointer-events: none
+	opacity: 0.5
 
 .container
 	margin: 0 auto
@@ -249,8 +317,8 @@ h1
 h2
 	width: 100%
 	margin: 0 auto 80px
-	background: linear-gradient(to right, rgba(212,171,60,1) 0%,rgba(255,230,176,1) 63%,rgba(210,153,64,1) 100%)
-	// background-image: linear-gradient(to top, #d4ab3c, #ffe6b0, #d29940), linear-gradient(to bottom, #cd9b54, #cd9b54)
+	// background: linear-gradient(to right, rgba(212,171,60,1) 0%,rgba(255,230,176,1) 50%,rgba(210,153,64,1) 100%)
+	background-image: linear-gradient(to left, rgba(140, 96, 40, 0.25), rgba(140, 96, 40, 0.25)), linear-gradient(to right, #d4ab3c, #ffe6b0, #d29940), linear-gradient(to left, #cd9b54, #cd9b54)
 	font-family: $title-font
 	font-size: 48px
 	font-weight: normal
@@ -285,4 +353,6 @@ h2
 	display: flex
 	align-items: stretch
 	flex-wrap: wrap
+	
+
 	
