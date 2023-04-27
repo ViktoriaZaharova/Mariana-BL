@@ -389,6 +389,7 @@
 .programm-box__body {
   width: 100%;
   padding: 40px 0 0;
+  display: none;
 }
 .programm-box__step {
   margin: 0 0 50px;
